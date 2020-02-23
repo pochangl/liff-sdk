@@ -102,3 +102,6 @@ dist
 
 # TernJS port file
 .tern-port
+
+# no vs files
+*.code-workspace
