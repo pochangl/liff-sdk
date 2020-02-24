@@ -3,6 +3,7 @@
   "version": "0.0.2",
   "description": "Liff sdk",
   "main": "dist/index.js",
+  "typs": "dist/index.d.ts",
   "files": [
     "src",
     "dist/*.js",
