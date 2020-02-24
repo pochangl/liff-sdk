@@ -1,8 +1,8 @@
 {
   "name": "liff-sdk",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Liff sdk",
-  "main": "dist/liff.js",
+  "main": "dist/index.js",
   "files": [
     "src",
     "dist/*.js",
@@ -13,6 +13,10 @@
     "build": "tsc -p tsconfig.json",
     "lint": "eslint . --ext .ts",
     "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pochangl/liff-sdk.git"
   },
   "devDependencies": {
     "@types/jest": "^25.1.3",
@@ -27,5 +31,9 @@
     "typescript": "^3.8.2"
   },
   "author": "Charlie Lee<stupidgod08@yahoo.com.tw>",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pochangl/liff-sdk/issues"
+  },
+  "homepage": "https://github.com/pochangl/liff-sdk#readme"
 }
