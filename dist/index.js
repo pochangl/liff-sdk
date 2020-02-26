@@ -46,7 +46,9 @@ function loadLiff(liffId) {
                 case 1:
                     _a.sent();
                     liff = window.liff;
-                    return [4, liff.init({ liffId: liffId })];
+                    return [4, new Promise(function (resolve) {
+                            liff.init({ liffId: liffId }, resolve);
+                        })];
                 case 2:
                     _a.sent();
                     return [2, liff];
