@@ -46,7 +46,9 @@ function loadLiff(liffId) {
                 case 1:
                     _a.sent();
                     liff = window.liff;
-                    liff.init({ liffId: liffId });
+                    return [4, liff.init({ liffId: liffId })];
+                case 2:
+                    _a.sent();
                     return [2, liff];
             }
         });
