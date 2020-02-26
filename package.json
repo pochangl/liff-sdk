@@ -1,9 +1,9 @@
 {
   "name": "liff-sdk",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Liff sdk",
   "main": "dist/index.js",
-  "typs": "dist/index.d.ts",
+  "typings": "dist/index.d.ts",
   "files": [
     "src",
     "dist/*.js",
